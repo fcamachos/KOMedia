@@ -1,5 +1,5 @@
 # KOMedia
-KOMedia is a little script to organize your pictures by date using the awesome [exiftool] (https://exiftool.org/).
+KOMedia is a little script to organize your pictures by date using the awesome [exiftool](https://exiftool.org/).
 
 ### What does it does?
 

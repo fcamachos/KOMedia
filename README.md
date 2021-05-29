@@ -12,9 +12,13 @@ The structure of that new directory is the next:
 
 The whole process is meant to be user friendly for those who are not willing to type a lot of command in a scary terminal. 
 
-This script runs de *sudo apt update* to look for updates of your system. If there are updates aviable, it will try to do a *sudo apt upgrade*.
-Every step will be followed with a *kool* notification in the corner of your screen thanks to the *kdialog* component.
+### Duplicated names
 
+If there are files that share the same name and by some reason both are supposed to be in the same directory, the script will add a new folder with the name of the year so you can handle the duplicated files manually.
+
+### Not moved files
+
+In the case some files didn't move, it's possible that the script couldn't find the time tags. Try to manually rename them with a date and run again the script.
 
 ### Why a script this simple? 
 

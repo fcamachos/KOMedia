@@ -1,5 +1,5 @@
 # KOMedia
-A little script to organize your pictures by date using the awesome [exiftool] (https://exiftool.org/).
+KOMedia is a little script to organize your pictures by date using the awesome [exiftool] (https://exiftool.org/).
 
 ### What does it does?
 
@@ -7,6 +7,7 @@ By excecuting this script a *kdialog* will pop-up asking you for a directory to 
 After selecting a directory, the script will use *exiftool* to get the information of your pictures or videos stored in the selected directory and use it to move the files in an *organized* new directory. 
 
 The structure of that new directory is the next:
+
 ![Structure](assets/Screenshot_1.png?raw=true "Sample")
 
 The whole process is meant to be user friendly for those who are not willing to type a lot of command in a scary terminal. 

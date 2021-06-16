@@ -8,6 +8,8 @@ After selecting a directory, the script will use *exiftool* to get the informati
 
 The structure of that new directory is the next:
 
+YYYY/mm/img.*
+
 ![Structure](assets/Screenshot_1.png?raw=true "Sample")
 
 The whole process is meant to be user friendly for those who are not willing to type a lot of command in a scary terminal. 
@@ -51,7 +53,8 @@ Once you're done lets see how to give run permissions:
 
 #### Runing the script
 
-Now everything is ready, just double click on the **update.sh** file and it will begin to update your system.
+Now everything is ready, just double click on the **KOMedia.sh** file and it will ask you to select a directory where to start a deep search. 
+You can select only to tag your pictures or move them o a new directory named 'KOMedia' in the directory you selected.
 
 #### Making it even more beautiful
 
